@@ -22,8 +22,21 @@ selector y valores para adaptar los rem
 html{
     font-size: 16px;
 }
+main{
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
 body{
-   
+    min-height: 500px;
+    z-index: 99;
+    background: url(../img/waves2-static.svg) no-repeat center center;
+    overflow: visible;
+    background-size: cover;
+}
+.contacto{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 /* 1rem = 16px*/  
