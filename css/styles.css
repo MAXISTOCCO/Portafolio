@@ -1,0 +1,86 @@
+/*variables de css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Lora:wght@400;500;600&display=swap');
+*{
+    margin: 0%; /* elimina los espacios que estan de mas */
+    font-family: 'Lora', serif;
+    color: rgb(0, 0, 0);
+}
+
+
+:root{
+    --blanco:#ffffff;
+    --oscuro:#120466;
+    --primario:#f9f6ee;
+    --secundario:#050376;
+    --gris:#757575;
+    --azul:#050376;
+   
+}
+selector y valores para adaptar los rem
+
+html{
+    font-size: 16px;
+}
+body{
+   
+}
+
+/* 1rem = 16px*/  
+
+
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color:var(--azul);  
+    font-size: 5rem; 
+  
+}
+.titulo span{
+    font-size: 2rem;
+}
+
+.contenedor{
+    width: 120rem;
+    /*
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    es lo mismo que abajo*/
+   
+    margin: 0 auto ;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+accedemos a la clase y luego abajo accedemos a las etiquetas
+.navegacion-principal {
+    
+ 
+  display: flex;
+  /*flex-direction: column;
+  /*flex-direction: column; para poner la barra de navegacion de arriba a abajo
+  aligne-items:center;*/
+ 
+  justify-content: space-between;
+}
+
+
+
+.navegacion-principal a {
+    
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: deeppink;
+    color: var(--oscuro);
+}
+
